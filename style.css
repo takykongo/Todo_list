@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #FFCC45;
+}
+#pere{
+    background-color: yellow;
+    position: relative;
+    width: 70%;
+    height: 90%;
+    left: 50%;
+    top: 50%;
+    border: 5px solid black;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+}
+#titre{
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: inline;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+input{
+    left: 50%;
+    transform: translate(20%,105%);
+    padding: 15px 128px;
+    text-align: center;
+    font-size: 16px;
+}
+#boutton{
+    transform: translate(460%,0%);
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#blocs{
+    height: 100%;
+    width: 100%;
+}
+.taches{
+    top: 50%;
+    transform: translate(10%,110%);
+    margin: 0px;
+    background-color: #4CAF50;
+    border-radius: 25px;
+    margin: 4px 2px;
+    width: 200px;
+    padding: 5px;
+}
+.sup{
+    bottom: 0px;
+    left: 50%;
+    transform: translate(135%,290%);
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.aff{
+    margin: 0px;
+    bottom: 0px;
+    width: 150px;
+    left: 50%;
+    transform: translate(60%,510%);
+}
+.corbeilles{
+    font-size: 1.2rem;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+    
+}
+.bou_cor{
+    font-size: 1.2rem;
+    text-align: center;
+    color: blue;
+    transform: translate(2000%,-20%);
+    border: none;
+    background-color: #4CAF50;
+    border-radius: 50px;
+}
+.corbeilles :hover{
+    color: red;
+}
+#boutton:hover{
+    background-color: orangered;
+    color: blue;
+    border-radius: 50px;
+}
+.sup:hover{
+    background-color: orangered;
+    color: blue;
+    border-radius:50px;
+}
+.bloc{
+    display: inline;
+    justify-content: space-around;
+}
