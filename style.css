@@ -51,18 +51,15 @@ input{
     justify-content: space-around;
 }
 .taches{
-    
+    text-align: ;
     margin: 0px;
     background-color: #4CAF50;
     border-radius: 25px;
     margin: 4px 2px;
     width: 200px;
-    padding: 5px;
+    padding: 5px 0px;
 }
 .sup{
-    bottom: 0px;
-    left: 50%;
-    transform: translate(135%,290%);
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -75,11 +72,7 @@ input{
     cursor: pointer;
 }
 .aff{
-    margin: 0px;
-    bottom: 0px;
     width: 150px;
-    left: 50%;
-    transform: translate(60%,510%);
 }
 .corbeilles{
     font-size: 1.2rem;
@@ -114,4 +107,8 @@ form {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+}
+.lep{
+    display: flex;
+    justify-content: space-around;
 }
