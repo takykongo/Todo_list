@@ -46,16 +46,12 @@ input{
     margin: 4px 2px;
     cursor: pointer;
 }
-#bloc{
-    background-color: white;
-    /* height: 100%; */
-    width: 100%;
+.bloc{
     display: flex;
     justify-content: space-around;
 }
 .taches{
-    top: 50%;
-    transform: translate(10%,110%);
+    
     margin: 0px;
     background-color: #4CAF50;
     border-radius: 25px;
@@ -96,7 +92,6 @@ input{
     font-size: 1.2rem;
     text-align: center;
     color: blue;
-    transform: translate(2000%,-20%);
     border: none;
     background-color: #4CAF50;
     border-radius: 50px;
