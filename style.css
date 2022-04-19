@@ -49,9 +49,9 @@ input{
 .bloc{
     display: flex;
     justify-content: space-around;
+    
 }
 .taches{
-    text-align: ;
     margin: 0px;
     background-color: #4CAF50;
     border-radius: 25px;
